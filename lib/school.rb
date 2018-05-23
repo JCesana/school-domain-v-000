@@ -23,4 +23,8 @@ class School
     @roster[grade_number]
   end 
   
+  
+  def sort 
+    @roster.sort 
+  end 
 end 
