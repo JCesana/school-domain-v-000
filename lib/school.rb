@@ -26,9 +26,13 @@ class School
   
   
   def sort 
-    @roster.each do |grade|
-      puts @roster[grade]
+    sorted = {}
+    
+    @roster.each do |grade, student|
+      sorted[grade] = []
+      
     end 
+    
   end 
   
 end 
