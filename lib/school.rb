@@ -26,8 +26,8 @@ class School
   
   
   def sort 
-    @roster.sort_by
-    binding.pry 
+    @roster.sort_by { |k,v| v }
+    # binding.pry 
   end 
   
 end 
