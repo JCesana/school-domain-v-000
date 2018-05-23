@@ -26,8 +26,9 @@ class School
   
   
   def sort 
-    @roster.sort_by { |k,v| v }.sort_by { |k,v| k }
-    # binding.pry 
+    @roster.each do |grade|
+      @roster[grade]
+    end 
   end 
   
 end 
